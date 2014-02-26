@@ -1,0 +1,21 @@
+{
+  "name": "angular-idb-comparison",
+  "version": "0.1.0",
+  "description": "A comparison of IndexedDB wrappers",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-static": "~0.7.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "angularjs",
+    "idb",
+    "indexeddb"
+  ],
+  "author": "Tom Vincent <npm@tlvince.com> (http://tlvince.com/)",
+  "license": "MIT"
+}

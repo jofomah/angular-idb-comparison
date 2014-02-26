@@ -1,0 +1,30 @@
+{
+  "name": "angular-idb-comparison",
+  "version": "0.1.0",
+  "authors": [
+    "Tom Vincent <git@tlvince.com>"
+  ],
+  "description": "A comparison of IndexedDB wrappers",
+  "main": "app.js",
+  "keywords": [
+    "angularjs",
+    "idb",
+    "indexeddb"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tlvince/angular-idb-comparison",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css-only": "~3.1.0",
+    "angular": "~1.2.13",
+    "angular-ui-router": "0.2.8-bowratic-tedium",
+    "angular-bootstrap": "~0.10.0"
+  }
+}
