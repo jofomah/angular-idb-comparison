@@ -26,6 +26,7 @@
     "angular": "~1.2.13",
     "angular-ui-router": "0.2.8-bowratic-tedium",
     "angular-bootstrap": "~0.10.0",
-    "idbwrapper": "~1.4.1"
+    "idbwrapper": "~1.4.1",
+    "angular-indexedDB": "git@github.com:webcss/angular-indexedDB.git"
   }
 }

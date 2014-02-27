@@ -14,7 +14,8 @@ angular.module('App')
         }
         $scope.implementations = [
           'native',
-          'idbwrapper'
+          'idbwrapper',
+          'angular-indexeddb'
         ];
       }
     });
