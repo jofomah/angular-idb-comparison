@@ -16,7 +16,8 @@ angular.module('App')
           'native',
           'idbwrapper',
           'angular-indexeddb',
-          'angular-localforage'
+          'angular-localforage',
+          'dbjs'
         ];
       }
     });
