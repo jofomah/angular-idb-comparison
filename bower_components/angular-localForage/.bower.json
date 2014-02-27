@@ -1,0 +1,38 @@
+{
+  "name": "angular-localForage",
+  "main": "angular-localForage.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ocombe/angular-localForage",
+  "authors": [
+    "Olivier Combe <olivier.combe@gmail.com>"
+  ],
+  "description": "Angular service & directive for https://github.com/mozilla/localForage (Offline storage, improved.)",
+  "keywords": [
+    "localstorage",
+    "local-storage",
+    "indexDB",
+    "webSQL",
+    "storage",
+    "module",
+    "angular",
+    "angularJS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "b58d6aaeb3fd5ec881e8a9beee477b62cc5f411e"
+  },
+  "_source": "git://github.com/ocombe/angular-localForage.git",
+  "_target": "~0.0.1",
+  "_originalSource": "angular-localForage",
+  "_direct": true
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>IDB comparison</title>
+    <link href="bower_components/bootstrap-css-only/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body ng-app="App">
+    <div class="container">
+      <div class="page-header">
+        <h1><a ui-sref="home">IDB comparison</a></h1>
+      </div>
+      <alert ng-repeat="alert in alerts" type="alert.type" ng-bind="alert.msg"></alert>
+      <div ui-view></div>
+    </div>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/idbwrapper/idbstore.js"></script>
+    <script src="bower_components/angular-indexedDB/src/indexeddb.js"></script>
+    <script src="bower_components/localforage/dist/localforage.js"></script>
+    <script src="bower_components/angular-localForage/angular-localForage.js"></script>
+    <script src="bower_components/db.js/src/db.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/factories/alerts.js"></script>
+    <script src="scripts/states/home.js"></script>
+    <script src="scripts/states/native.js"></script>
+    <script src="scripts/states/idbwrapper.js"></script>
+    <script src="scripts/states/angular-indexeddb.js"></script>
+    <script src="scripts/states/angular-localforage.js"></script>
+    <script src="scripts/states/dbjs.js"></script>
+  </body>
+</html>

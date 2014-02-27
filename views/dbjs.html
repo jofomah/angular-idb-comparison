@@ -1,0 +1,10 @@
+<h2>db.js</h2>
+<div class="col-md-6">
+  <input type="text" name="todo" ng-model="todo.text" required>
+  <button class="btn btn-success" ng-click="addTodo(todo)">Add</button>
+</div>
+<div class="col-md-6">
+  <ul>
+    <li ng-repeat="todo in todos" ng-bind="todo.text"></li>
+  </ul>
+</div>
