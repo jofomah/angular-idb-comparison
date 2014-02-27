@@ -6,6 +6,9 @@ angular.module('App')
       url: '/native',
       templateUrl: 'views/native.html',
       controller: function($window, $scope, alerts) {
+        alerts.add({
+          msg: 'Demo incomplete'
+        });
         var db,
             version = 2;
 

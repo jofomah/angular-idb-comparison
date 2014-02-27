@@ -14,6 +14,7 @@ angular.module('App')
         }
         $scope.implementations = [
           'native',
+          'idbwrapper'
         ];
       }
     });
