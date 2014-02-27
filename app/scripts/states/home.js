@@ -15,7 +15,8 @@ angular.module('App')
         $scope.implementations = [
           'native',
           'idbwrapper',
-          'angular-indexeddb'
+          'angular-indexeddb',
+          'angular-localforage'
         ];
       }
     });
