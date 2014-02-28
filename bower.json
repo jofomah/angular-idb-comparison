@@ -30,6 +30,7 @@
     "angular-indexedDB": "git@github.com:webcss/angular-indexedDB.git",
     "angular-localForage": "~0.0.1",
     "localforage": "*",
-    "db.js": "https://github.com/aaronpowell/db.js.git#~0.9.0"
+    "db.js": "https://github.com/aaronpowell/db.js.git#~0.9.0",
+    "ydn-db": "~0.8.12"
   }
 }

@@ -17,7 +17,8 @@ angular.module('App')
           'idbwrapper',
           'angular-indexeddb',
           'angular-localforage',
-          'dbjs'
+          'dbjs',
+          'ydn'
         ];
       }
     });
